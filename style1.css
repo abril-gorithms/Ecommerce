@@ -1,0 +1,200 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+
+.wrapper
+{
+	height: 660px;
+	width: 1365px;
+	/*background-color: red;*/
+}
+header
+{
+	height: 140px;
+	width: 1365px;
+	background-color: rgb(187, 218, 187);
+	padding: 10px;
+}
+section
+{
+	height: 550px;
+	width: 1365px;
+}
+.logo
+{
+  float:left;
+  padding-left: 20px;
+}
+li a
+{
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.topnav nav
+{
+  float: right;
+  word-spacing: 30px;
+  padding: 25px;
+  margin-top: -90px;
+}
+nav li
+{
+  display: inline-block;
+  line-height: 80px;
+}
+.topnav nav a:hover {
+  background-color:#7aaf41;
+  color: black;
+}
+
+.srch
+    {
+     padding-left: 300px;
+     margin-top: 50px;
+     font-size: 22px;
+     
+    }
+
+  .cart
+  {
+    float: right;
+    width: 40px;
+    height: 40px;
+    padding-right: 230px;
+    margin-top: -30px;
+  }*
+  /*----------------log in------------------*/
+  .box1
+  {
+      height: 400px;
+      width: 500px;
+      background-color:  #73a242;
+      margin-left: 100px;
+      opacity: .7;
+      color: white;
+      padding: 20px;
+      margin-top:20px;
+  }
+  form .login
+  {
+      margin: auto 50px;
+  }
+  input
+  {
+      height: 30px;
+      width: 350px;
+  
+  }
+  .topnav_login
+  {
+    background-color: rgb(187, 218, 187);
+    overflow: hidden;
+  }
+  .nav_login a
+  {
+    float: right;
+    color: #080808;
+    font-size: 20px;
+    margin-top: -70px;
+    margin-right: 20px;
+  }
+  .nav_login a:hover {
+    background-color:#7aaf41;
+    color: black;
+  }
+  
